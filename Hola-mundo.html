@@ -1,1 +1,180 @@
-Hola mundo¡
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>I Like the Way You Kiss Me</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1 id="titulo">I Like the Way You Kiss Me</h1>
+
+        <p>Artemas</p>
+
+        <a href="sesiom.html">Ir al Login</a>
+
+    </header>
+
+
+    <main>
+
+        
+        <div class="contenedor3D">
+
+            <img id="imagenCancion"
+                 src="OIP.webp"
+                 alt="Imagen relacionada con la canción">
+
+        </div>
+
+
+       
+        <button id="botonTexto" onclick="mostrarTexto()">
+            Mostrar información
+        </button>
+
+        <button id="botonImagen" onclick="cambiarImagen()">
+            Cambiar imagen
+        </button>
+
+        <button id="botonColor" onclick="cambiarColor()">
+            Cambiar título
+        </button>
+
+
+       
+        <p id="informacion">
+
+            "I Like the Way You Kiss Me" es una canción de
+            Artemas que combina elementos de pop alternativo
+            y música electrónica.
+
+        </p>
+
+
+       
+        <section>
+
+            <h2>Sobre la canción</h2>
+
+            <p>
+                I Like the Way You Kiss Me es una canción de Artemas
+                que se caracteriza por su estilo pop alternativo
+                y electrónico.
+            </p>
+
+            <p>
+                La canción obtuvo popularidad en plataformas
+                digitales y fue utilizada en numerosos videos
+                creados por usuarios.
+            </p>
+
+        </section>
+
+
+       
+        <section>
+
+            <h2>Música</h2>
+
+            <p>
+                Presiona el botón para reproducir o pausar el audio.
+            </p>
+
+            <audio id="audioFondo" loop>
+
+                <source src="ytmp3free.cc_artemas-i-like-the-way-you-kiss-me-lyric-video-youtubemp3free.org.mp3" type="audio/mpeg">
+
+                Tu navegador no puede reproducir este audio.
+
+            </audio>
+
+            <button onclick="reproducirAudio()">
+                ▶ Reproducir / Pausar música
+            </button>
+
+        </section>
+
+
+               <button onclick="mostrarLetra()">
+            Ver letra
+        </button>
+
+
+               <div id="letra" class="ventanaLetra">
+
+            <h2>Sobre la letra</h2>
+
+            <p>
+             I like the way you kiss me
+I like the way you-, uh
+I like the way you kiss me, I can tell you miss me
+I can tell it hits, hits, hits, hits
+Not tryna be romantic, I'll hit it from the back
+Just so you don't get attached ('tached, 'tached, 'tached)
+I like the way you kiss me, I can tell you miss me
+I can tell it hits, hits, hits, hits
+Not tryna be romantic, I'll hit it from the back
+Just so you don't get attached ('tached, 'tached, 'tached)
+You bite my lip just for the taste
+You're on your knees, I'm on the case
+You take the heat and with such grace
+You say we're done, but here you stay              </p>
+
+            <p>
+              You said you're scared, I'll let you down (I'll let you down)
+Just stick around, and you'll find out (and you'll find out)
+But don't you wanna make me proud? (So make me proud)
+'Cause I'm so proud, baby, I'm so proud of you
+I like the way you kiss me, I can tell you miss me
+I can tell it hits, hits, hits, hits
+Not tryna be romantic, I'll hit it from the back
+Just so you don't get attached ('tached, 'tached, 'tached)
+I like the way you kiss me, I can tell you miss me
+I can tell it hits, hits, hits, hits
+Not tryna be romantic, I'll hit it from the back
+Just so you don't get attached ('tached, 'tached, 'tached)
+            </p>
+
+            <p>
+                Do I stress you out? Can I help you out?
+Does it turn you on when I turn you around?
+Can we make a scene? (Scene), can you make it loud? (Loud)
+'Cause I'm so proud, baby, I'm so proud of you
+So proud of you
+Mm, so proud of you
+I like the way you kiss me, I can tell you miss me
+I can tell it hits, hits, hits, hits
+Not tryna be romantic, I'll hit it from the back
+Just so you don't get attached ('tached, 'tached, 'tached)
+I like the way you kiss me, I can tell you miss me
+I can tell it hits, hits, hits, hits
+Not tryna be romantic, I'll hit it from the back
+Just so you don't get attached ('tached, 'tached, 'tached)
+I like the way you kiss me
+I like the way you-, uh           </p>
+
+            <button onclick="cerrarLetra()">
+                Cerrar
+            </button>
+
+        </div>
+
+    </main>
+
+
+   
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
